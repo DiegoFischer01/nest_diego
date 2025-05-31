@@ -1,6 +1,8 @@
 import { Injectable } from '@nestjs/common';
 import { Track } from './track.interface';
+
 const BASE_URL = 'http://localhost:3030/tracks';
+
 @Injectable()
 export class TrackService {
    async getTracks(): Promise<Track[]> {
