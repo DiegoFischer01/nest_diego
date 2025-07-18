@@ -96,3 +96,15 @@ Nest is an MIT-licensed open source project. It can grow thanks to the sponsors 
 ## License
 
 Nest is [MIT licensed](https://github.com/nestjs/nest/blob/master/LICENSE).
+
+
+# Poner iconos de material pero para NEST
+
+Escribo en la barra de arriba: 
+>workspace... y en als opciones elijo : 
+* Preferences: Open workspace settings (jason)
+Esto crea la carpeta .vscode con un jason adento 
+En el jason de adentro (settings.json) -> escribo elcodigo -> 
+{
+    "material-icon-theme.activeIconPack": "nest"
+}
